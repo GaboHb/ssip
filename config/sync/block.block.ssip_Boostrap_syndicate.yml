@@ -1,0 +1,23 @@
+uuid: 683060a4-4539-4e4e-90fd-24b78f649539
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - ssip_Boostrap
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: ssip_Boostrap_syndicate
+theme: ssip_Boostrap
+region: footer
+weight: -6
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'Canal RSS'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

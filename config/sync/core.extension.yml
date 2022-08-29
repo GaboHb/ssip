@@ -55,4 +55,6 @@ module:
 theme:
   olivero: 0
   claro: 0
+  bootstrap: 0
+  ssip_Boostrap: 0
 profile: standard

@@ -1,0 +1,23 @@
+uuid: 82d6141e-1d28-4e23-8aa4-d001811f3248
+langcode: es
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - ssip_Boostrap
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: ssip_Boostrap_search_form_narrow
+theme: ssip_Boostrap
+region: navigation
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (estrecho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

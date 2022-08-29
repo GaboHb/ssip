@@ -1,0 +1,20 @@
+uuid: a5102309-b830-4b27-a0c6-a736358ae394
+langcode: es
+status: true
+dependencies:
+  theme:
+    - ssip_Boostrap
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: ssip_Boostrap_primary_admin_actions
+theme: ssip_Boostrap
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

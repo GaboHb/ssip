@@ -1,0 +1,22 @@
+uuid: 874ae14b-cb2d-49c4-a891-7163141e237c
+langcode: es
+status: false
+dependencies:
+  theme:
+    - ssip_Boostrap
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: ssip_Boostrap_primary_local_tasks
+theme: ssip_Boostrap
+region: sidebar_first
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas principales'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

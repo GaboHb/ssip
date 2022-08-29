@@ -1,0 +1,20 @@
+uuid: bab55093-525a-4b1c-9297-7fb1a39044b3
+langcode: es
+status: true
+dependencies:
+  theme:
+    - ssip_Boostrap
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: ssip_Boostrap_page_title
+theme: ssip_Boostrap
+region: highlighted
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility: {  }

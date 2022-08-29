@@ -1,0 +1,22 @@
+uuid: ec497d9d-94de-4078-9030-2d6ff0e8ddaf
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ssip_Boostrap
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: ssip_Boostrap_breadcrumbs
+theme: ssip_Boostrap
+region: header
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }
