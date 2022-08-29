@@ -22,6 +22,9 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  fontawesome: 0
+  fontawesome_iconpicker_widget: 0
+  fontawesome_media: 0
   help: 0
   history: 0
   image: 0
@@ -37,8 +40,11 @@ module:
   path: 0
   path_alias: 0
   rdf: 0
+  responsive_image: 0
   search: 0
   shortcut: 0
+  svg_image: 0
+  svg_image_responsive: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -55,4 +61,6 @@ module:
 theme:
   olivero: 0
   claro: 0
+  bootstrap: 0
+  ssip_Boostrap: 0
 profile: standard

@@ -1,0 +1,22 @@
+uuid: 7e4c1d55-2279-40e0-bce7-3cd3d5976ce3
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ssip_Boostrap
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: ssip_Boostrap_help
+theme: ssip_Boostrap
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

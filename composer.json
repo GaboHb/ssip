@@ -17,10 +17,13 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.1",
+        "drupal/bootstrap": "^3.25",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/fontawesome": "^2.23",
         "drupal/pathauto": "^1.11",
+        "drupal/svg_image": "^1.16",
         "drush/drush": "^10.2"
     },
     "conflict": {

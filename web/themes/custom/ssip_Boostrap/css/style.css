@@ -1,0 +1,26 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+ /* ESTILO DE CABECERA */
+ .logo.navbar-btn.pull-left {
+    width: 20%;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+.name.navbar-brand {
+    width: 60%;
+    text-align: center;
+}
+
+#block-usuarioactivo {
+    width: 20%;
+    padding: 15px 15px;
+    display: inline-block;
+    text-align: right;
+    float: right;
+  }

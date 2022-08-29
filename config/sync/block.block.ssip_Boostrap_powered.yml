@@ -1,0 +1,22 @@
+uuid: 3059f8bd-1ee7-43d7-b6ce-88a215d09514
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ssip_Boostrap
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: ssip_Boostrap_powered
+theme: ssip_Boostrap
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Funciona con Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

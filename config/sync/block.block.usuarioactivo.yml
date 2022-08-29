@@ -1,0 +1,25 @@
+uuid: 5510d75b-c27f-4bff-8d6b-c195d4aaa570
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d65c3ca9-b748-43b9-a3a3-0d332662a1c8'
+  module:
+    - block_content
+  theme:
+    - ssip_Boostrap
+id: usuarioactivo
+theme: ssip_Boostrap
+region: navigation
+weight: -6
+provider: null
+plugin: 'block_content:d65c3ca9-b748-43b9-a3a3-0d332662a1c8'
+settings:
+  id: 'block_content:d65c3ca9-b748-43b9-a3a3-0d332662a1c8'
+  label: 'Usuario activo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
