@@ -19,16 +19,19 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
             - Strike
             - Superscript
             - Subscript
             - '-'
             - RemoveFormat
         -
-          name: Linking
+          name: Alineación
           items:
-            - DrupalLink
-            - DrupalUnlink
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
         -
           name: Lists
           items:
@@ -42,9 +45,15 @@ settings:
             - Table
             - HorizontalRule
         -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
           name: 'Block Formatting'
           items:
             - Format
+            - DrupalFontAwesome
         -
           name: Tools
           items:
@@ -57,5 +66,5 @@ image_upload:
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null
