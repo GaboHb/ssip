@@ -8,18 +8,20 @@ dependencies:
     - comment
     - contact
     - filter
+    - fontawesome
     - search
     - shortcut
     - system
 _core:
   default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
 id: authenticated
-label: 'Authenticated user'
+label: 'Usuario autenticado'
 weight: 1
 is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access fontawesome additional settings'
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'post comments'
