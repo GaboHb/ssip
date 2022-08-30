@@ -24,3 +24,83 @@
     text-align: right;
     float: right;
   }
+
+/* BLOQUE SERVICIOS*/
+.servicios{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+.servicios > div {
+    width: 15%;
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+    padding: 2% 0% 0% 0%;
+    border-radius: 15px;
+}
+
+.servicios-etiqueta-alineacion {
+    margin-top: 10%;
+    height: 40px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 3%;
+}
+
+.servicios-etiqueta-fuente > p > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+.servicios-etiqueta-fuente > p > a:hover {
+    color:darkslategray;
+}
+
+.servicios-captura-icon > p > a {
+    color: white;
+}
+
+.servicios-captura-icon > p > a:hover {
+    color:darkslategray;
+}
+
+.servicios-captura {
+    flex: 1;
+    background-color: rgb(0,180,80);
+}
+.servicios-etiqueta-captura {
+    background-color: rgb(0, 146, 89);
+}
+
+.servicios-revision {
+    flex: 1;
+    background-color: rgb(0,172,191);
+    text-transform: uppercase;
+}
+.servicios-etiqueta-revision {
+    background-color: rgb(0, 156, 174);
+}
+
+.servicios-busqueda {
+    flex: 1;
+    background-color: rgb(253, 156, 12);
+    text-transform: uppercase;
+}
+.servicios-etiqueta-busqueda {
+    background-color: rgb(227, 141, 11);
+}
+
+.servicios-reportes {
+    flex: 1;
+    background-color: rgb(234, 89, 54);
+    text-transform: uppercase;
+}
+.servicios-etiqueta-reportes {
+    background-color: rgb(209, 79, 50);
+}

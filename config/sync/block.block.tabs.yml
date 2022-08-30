@@ -1,0 +1,20 @@
+uuid: f3bbed3f-bb79-4b50-8e14-f655d066c792
+langcode: es
+status: true
+dependencies:
+  theme:
+    - ssip_Boostrap
+id: tabs
+theme: ssip_Boostrap
+region: highlighted
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
