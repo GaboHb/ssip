@@ -1,0 +1,30 @@
+uuid: 62ade3c2-10d7-436a-84e8-e1c5ab2d1e43
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:54fd55a0-bade-416c-9123-2493680eaa35'
+  module:
+    - block_content
+    - system
+  theme:
+    - ssip_Boostrap
+id: servicios
+theme: ssip_Boostrap
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:54fd55a0-bade-416c-9123-2493680eaa35'
+settings:
+  id: 'block_content:54fd55a0-bade-416c-9123-2493680eaa35'
+  label: Servicios
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
