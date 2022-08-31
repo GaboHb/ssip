@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^9",
         "drupal/fontawesome": "^2.23",
         "drupal/pathauto": "^1.11",
+        "drupal/simplelogin": "^6.0",
         "drupal/svg_image": "^1.16",
         "drush/drush": "^10.2"
     },
