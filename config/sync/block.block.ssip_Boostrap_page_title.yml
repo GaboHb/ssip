@@ -1,6 +1,6 @@
 uuid: bab55093-525a-4b1c-9297-7fb1a39044b3
 langcode: es
-status: true
+status: false
 dependencies:
   theme:
     - ssip_Boostrap

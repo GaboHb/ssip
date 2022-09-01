@@ -12,7 +12,7 @@ dependencies:
 id: servicios
 theme: ssip_Boostrap
 region: content
-weight: 0
+weight: -8
 provider: null
 plugin: 'block_content:54fd55a0-bade-416c-9123-2493680eaa35'
 settings:
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: /inicio
+    pages: "/inicio\r\n/captura"
