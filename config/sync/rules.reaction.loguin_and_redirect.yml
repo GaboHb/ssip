@@ -1,0 +1,38 @@
+uuid: 4b950067-c647-42e0-aa28-97ce17f44af0
+langcode: es
+status: true
+dependencies: {  }
+id: loguin_and_redirect
+label: 'Loguin and redirect'
+events:
+  -
+    event_name: rules_user_login
+description: 'Redireccionar al usuario logueado a la pagina principal del sistema.'
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: da39d755-d672-4e73-8f12-2a28691aadcc
+  weight: 0
+  conditions:
+    id: rules_and
+    uuid: 2a8326ff-e80a-4cbb-9aa1-9cc427418d69
+    weight: 0
+    conditions: {  }
+  actions:
+    id: rules_action_set
+    uuid: c449ea24-f1ce-4aa1-9207-6ea66634ddab
+    weight: 0
+    actions:
+      -
+        id: rules_action
+        uuid: d2836723-c0e0-4c14-99bf-4fc30516ef63
+        weight: 0
+        action_id: rules_page_redirect
+        context_values:
+          url: /inicio
+        context_mapping: {  }
+        context_processors:
+          url:
+            rules_tokens: {  }
+        provides_mapping: {  }

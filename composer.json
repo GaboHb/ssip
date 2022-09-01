@@ -23,8 +23,10 @@
         "drupal/core-recommended": "^9",
         "drupal/fontawesome": "^2.23",
         "drupal/pathauto": "^1.11",
+        "drupal/rules": "3.x-dev@dev",
         "drupal/simplelogin": "^6.0",
         "drupal/svg_image": "^1.16",
+        "drupal/typed_data": "^1.0@beta",
         "drush/drush": "^10.2"
     },
     "conflict": {
